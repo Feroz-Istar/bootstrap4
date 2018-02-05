@@ -39,15 +39,25 @@
 				<% } %>
 				</div>
 				
+				<div class="slider multiple-items">
+					<%for(int i=0; i<10;i++){ %>
+					<%= new TestVelocity().getProductivityCaurosel() %>
+				<% } %>
+				</div>
+				<div class="slider multiple-items">
+					<%for(int i=0; i<10;i++){ %>
+					<%= new TestVelocity().getElearningCaurosel() %>
+				<% } %>
+				</div>
 				
 
-		<div class="card" style="width: 23rem; min-height: 15rem;">
+		<div class="card  p-2 m-2 box-shadow" style="width: 23rem; min-height: 15rem;">
 			<div class=" card-right schedule_card_color"></div>
 			<div class="task_icon schedule_card_icon"></div>
 
 
 			<div class="card-block p-0 m-0 bg-white">
-			<div class="container pt-2 pb-2">
+			<div class="container ">
 			<div class=" row  bg-white">
 				<div class="d-flex">
 				<div class="col-md-12">
@@ -56,8 +66,8 @@
 					<p4 class=" schedule_card_textcolor"> <i
 						class="fa fa-hourglass-o"></i> 6 hrs : 0 mins </p4>
 				</div></div>
-				</div></div>
-				<div class="container pt-2 pb-2">
+				</div>
+				
 					<div class=" row  bg-white">
 						<div class="col-md-3  pr-0">
 							<img alt="Retail Banking " align="middle" class="w-100 h-100"
@@ -65,42 +75,46 @@
 								src="http://business.talentify.in:9999//course_images/5.png">
 						</div>
 						<div class="col-md-9">
-							<h6>h6. Bootstrap heading</h6>
-							<h4>h4. Bootstrap heading</h4>
+							<h6>$xxx</h6>
+							<h5>h4. Bootstrap heading</h5>
 							<h5>h5. Bootstrap heading</h5>
 						</div>
-
-					</div>
-				</div>
+</div>
+					
 				<hr class="mb-0">
-				<div class="container pt-2 pb-2">
 				
-				<div class="row text-center">
-					<div class="col-md-4 text-left">
+				<div class="row text-center align-items-center">
+					<div class="col-md-3 text-left font-14">
 					Attendance
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3 font-14 pl-4">
 					Student
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3 font-14">
 					Trainer
 					</div>
+					<div class="col-md-3 font-14">
+					Sentiment Score
+					</div>
 				</div>
-				<div class="row text-center 	">
-					<div class="col-md-4 text-left">
-					59.74%
+				<div class="row text-center align-items-center	">
+					<div class="col-md-3 text-left">
+					<div class="rateYo" data-rating="4.5" data-star_width="14"></div>
 					</div>
-					<div class="col-md-4">
-					<div class="rateYo" data-rating="3.5" data-star_width="17"></div>
+					<div class="col-md-3">
+					<div class="rateYo" data-rating="3.5" data-star_width="14"></div>
 					</div>
-					<div class="col-md-4">
-					<div class="rateYo" data-rating="4.5" data-star_width="17"></div>
+					<div class="col-md-3">
+					100%
+					</div>
+					<div class="col-md-3">
+					%
 					
 					</div>
 				</div>
 				</div>
-			</div>
-
+			
+</div>	
 
 
 		</div>

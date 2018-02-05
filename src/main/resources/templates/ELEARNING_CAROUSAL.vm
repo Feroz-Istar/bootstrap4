@@ -1,0 +1,48 @@
+<div class="card  p-2 m-2 box-shadow" style="width: 23rem; min-height: 15rem;">
+   <div class=" card-right schedule_card_color"></div>
+   <div class="task_icon schedule_card_icon"></div>
+   <div class="card-block p-0 m-0 bg-white">
+      <div class="container ">
+      
+         
+         <div class=" row  bg-white mt-2">
+            <div class="col-md-3  pr-0">
+               <img alt="Retail Banking " align="middle" class="w-100 h-100"
+                  ng-src="http://business.talentify.in:9999//course_images/5.png"
+                  src="http://business.talentify.in:9999//course_images/5.png">
+            </div>
+            <div class="col-md-9">
+               <h6>$xxx</h6>
+               <h5>h4. Bootstrap heading</h5>
+               <h5>h5. Bootstrap heading</h5>
+            </div>
+         </div>
+         <hr class="mb-0">
+         <div class="row text-center align-items-center mt-2" style="line-height:15px;">
+            <div class="col-md-4 text-center font-14">
+               Talentify score
+            </div>
+            <div class="col-md-4 font-14 pl-4">
+               Self Rating 
+            </div>
+            <div class="col-md-4 font-14">
+               Keyword Detection
+            </div>
+          
+         </div>
+         <div class="row text-center align-items-center	mt-2">
+            <div class="col-md-4 text-center">
+               <div class="rateYo" data-rating="4.5" data-star_width="14"></div>
+            </div>
+            <div class="col-md-4">
+               <div class="rateYo" data-rating="3.5" data-star_width="14"></div>
+            </div>
+            <div class="col-md-4">
+               100%
+            </div>
+            
+         </div>
+                  
+      </div>
+   </div>
+</div>

@@ -6,5 +6,6 @@
 <script src="assets/js/slick.js" ></script>
 <script src="assets/js/google_chart.js" ></script>
 <script src="assets/js/jquery.rateyo.min.js" ></script>
+<script src="assets/js/font-awesome-all.js" ></script>
 
 <script src="assets/js/app.js" ></script>

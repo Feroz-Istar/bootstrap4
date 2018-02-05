@@ -51,6 +51,37 @@ public class TestVelocity {
         return writer.toString() ;
 	}
 	
+	public String getElearningCaurosel() throws IOException {
+		VelocityEngine ve = getVelocityEngine();
+        ve.init();
+        /*  next, get the Template  */
+        Template t = ve.getTemplate( "ELEARNING_CAROUSAL.vm" );
+        /*  create a context and add data */
+        VelocityContext context = new VelocityContext();
+        context.put("xxx", "Card Title");
+        /* now render the template into a StringWriter */
+        StringWriter writer = new StringWriter();
+        t.merge( context, writer );
+        /* show the World */
+        System.out.println( writer.toString() ); 
+        return writer.toString() ;
+	}
+	
+	public String getProductivityCaurosel() throws IOException {
+		VelocityEngine ve = getVelocityEngine();
+        ve.init();
+        /*  next, get the Template  */
+        Template t = ve.getTemplate( "PRODUCTIVITY_CAROUSEL.vm" );
+        /*  create a context and add data */
+        VelocityContext context = new VelocityContext();
+        context.put("xxx", "Card Title");
+        /* now render the template into a StringWriter */
+        StringWriter writer = new StringWriter();
+        t.merge( context, writer );
+        /* show the World */
+        System.out.println( writer.toString() ); 
+        return writer.toString() ;
+	}
 	
 	
 	public  VelocityEngine  getVelocityEngine() throws IOException{
